@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from './Hero';
 import Features from './Features';
 import ContactUs from './ContactUs';
+import PopularPages from './PopularPages';
 
 const Home = () => {
 
@@ -12,6 +13,7 @@ const Home = () => {
 
             <Hero></Hero>
             <Features></Features>
+            <PopularPages></PopularPages>
             <ContactUs></ContactUs>
             
         </div>
