@@ -47,7 +47,16 @@ const PublicBlogList = () => {
                 alt={blog.title}
                 className="rounded mb-3 h-48 w-full object-cover"
               />
-              <h3 className="text-xl font-semibold">{blog.title}</h3>
+              <h3 className="text-xl font-semibold my-4">{blog.title}</h3>
+              {/* <p className='truncate'>{blog.content}</p>
+               */}
+
+              <div
+                className="prose max-w-full mb-4 line-clamp-3"
+                dangerouslySetInnerHTML={{ __html: blog.content }}
+              />
+
+
               <Link to={`/blogs/${blog._id}`} className="btn btn-neutral mt-2">
                 Read More
               </Link>

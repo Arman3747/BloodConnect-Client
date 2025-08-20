@@ -7,12 +7,7 @@ const ContactUs = () => {
 
             <div className='flex justify-center items-center'>
                 <div className='grid grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-8'>
-                    {/* <div className='my-8'>
-                    <h3 className='text-2xl my-4'>BloodConnect Authority</h3>
-                    <p className='mb-2'>+123 45678 9012 (available 24 hours)</p>
-                    <p>For general enquiries, contact us through the form at the bottom of this page.</p>
 
-                </div> */}
                     <div className='col-span-2 flex justify-between items-center gap-2 h-full'>
 
                         <div className='grid grid-cols-1  md:grid-cols-2 gap-4 lg:gap-8 my-8'>

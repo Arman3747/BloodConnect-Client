@@ -3,7 +3,7 @@ import React from 'react';
 const Features = () => {
     return (
 
-        <div className='p-4'>
+        <div className='p-4 my-8'>
 
             <h1 className='text-5xl font-semibold mb-8'>What Makes <span className='text-[#ff4136] playwrite-au-sa-font'>BloodConnect</span> a Lifesaving Platform</h1>
             {/* <p className='mb-8 text-xl text-[#333333]'>We make donating blood simple, meaningful, and impactful—empowering everyday heroes to save lives through connection, convenience, and compassion.</p> */}
@@ -21,7 +21,7 @@ const Features = () => {
                         </figure>
                         <div className="card-body items-center text-center">
                             <h2 className="card-title">Easy Online Booking</h2>
-                            <p>Book your donation appointment effortlessly through our platform—fast, user-friendly, and available anytime from any device.</p>
+                            <p className=''>Book your donation appointment effortlessly through our platform—fast, user-friendly, and available anytime from any device.</p>
                         </div>
                     </div>
 

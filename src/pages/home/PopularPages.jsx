@@ -9,13 +9,12 @@ import { BiSolidDonateBlood } from "react-icons/bi";
 import { TbLogs } from "react-icons/tb";
 import { BiSolidDonateHeart } from "react-icons/bi";
 import { FaHospitalUser } from "react-icons/fa6";
-import { TbLocationFilled } from "react-icons/tb";
 import { TbLocationHeart } from "react-icons/tb";
 
 
 const PopularPages = () => {
     return (
-        <div className='p-4'>
+        <div className='p-4 my-8'>
 
             <h1 className='text-5xl font-semibold mb-8'>Popular Pages</h1>
 
